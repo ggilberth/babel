@@ -22,7 +22,6 @@ export type Format = {
   auxiliaryCommentAfter: string;
   compact: boolean | "auto";
   minified: boolean;
-  quotes: "single" | "double";
   concise: boolean;
   indent: {
     adjustMultilineComment: boolean;
